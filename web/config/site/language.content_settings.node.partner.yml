@@ -1,0 +1,13 @@
+uuid: 24c0e961-b97c-4153-a4cf-05d65ce7dfe1
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.partner
+_core:
+  default_config_hash: COusuOKalyf7RvCZvI78BDEFm9l1ZE3G6wQPz7ntqcY
+id: node.partner
+target_entity_type_id: node
+target_bundle: partner
+default_langcode: site_default
+language_alterable: false

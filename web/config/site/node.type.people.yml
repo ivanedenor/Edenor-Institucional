@@ -1,0 +1,19 @@
+uuid: 57013948-e1d0-4111-abfc-40d301b57afa
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: 0RhTFDFz7-0lYc6ftlpAQtSp2bEsp9Fv_5C2cwz_8-0
+name: People
+type: people
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

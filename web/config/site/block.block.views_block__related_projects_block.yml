@@ -1,0 +1,35 @@
+uuid: 3f3a33c5-795e-48a4-867b-27a620a7c86e
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.related_projects
+  module:
+    - ctools
+    - views
+  theme:
+    - progressive_sub
+_core:
+  default_config_hash: ZkX9Nh_OTNry33iR2bOrsi24UfV8IAmN7eiDS7vD-ZE
+id: views_block__related_projects_block
+theme: progressive_sub
+region: content
+weight: -10
+provider: null
+plugin: 'views_block:related_projects-block'
+settings:
+  id: 'views_block:related_projects-block'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      project: project
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,10 @@
+name: Medife
+description: "Adecuaciones propias de la Empresa Medifé SA"
+# core: "8.x"
+type: module
+
+# Information added by Drupal.org packaging script on 2017-12-11
+version: '8.x-2.0'
+core: '8.x'
+project: 'auth0'
+datestamp: 1513033087

@@ -1,0 +1,16 @@
+uuid: 6e218434-db18-40bd-9eca-6195e5fd45d5
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: bv6_HWeq7v2B2LaS6e_6ZupjwdpSK06EKq5wrmb1kqQ
+name: blog_84x84
+label: 'Blog (84x84)'
+effects:
+  780df66c-3905-4f1c-a948-0c48908adbcd:
+    uuid: 780df66c-3905-4f1c-a948-0c48908adbcd
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 84
+      height: 84

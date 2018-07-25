@@ -1,0 +1,63 @@
+uuid: ce7ad181-e753-49bd-8b2a-a2fa3ebed30e
+langcode: es
+status: true
+dependencies:
+  module:
+    - shortcode
+name: 'Shortcodes Dynamic'
+format: shortcode_dynamic
+weight: -10
+filters:
+  shortcode:
+    id: shortcode
+    provider: shortcode
+    status: true
+    weight: 0
+    settings:
+      a_nd_saved: '1'
+      accordions: '1'
+      spacer: '1'
+      sequence_item: '1'
+      service_box: '1'
+      sitemap: '1'
+      slider: '1'
+      slider_item: '1'
+      social_box: '1'
+      styledcontainer: '1'
+      row: '1'
+      tab: '1'
+      tabs: '1'
+      testimonial: '1'
+      textrotation: '1'
+      title: '1'
+      video: '1'
+      view: '1'
+      sequence: '1'
+      nd_quote: '1'
+      accordion: '1'
+      hr: '1'
+      block: '1'
+      nd_button: '1'
+      chart: '1'
+      col: '1'
+      container: '1'
+      gmap: '1'
+      html: '1'
+      quicklinks: '1'
+      icon: '1'
+      nd_image: '1'
+      message: '1'
+      node: '1'
+      pricing_table_row: '1'
+      pricing_table: '1'
+      progress: '1'
+      nd_webform: '1'
+      button: '1'
+      clear: '1'
+      dropcap: '1'
+      highlight: '1'
+      img: '1'
+      item: '1'
+      link: '1'
+      quote: '1'
+      random: '1'

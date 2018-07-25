@@ -1,0 +1,13 @@
+uuid: de72490d-7cce-4d8d-9b3a-64f5244f3ca6
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.people
+_core:
+  default_config_hash: QPZxTJHDAoLOQXbW4bknRQQiFyKSKvTvNDi4Le4HmRg
+id: node.people
+target_entity_type_id: node
+target_bundle: people
+default_langcode: site_default
+language_alterable: false

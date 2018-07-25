@@ -1,0 +1,14 @@
+uuid: 4105300c-7d19-47e7-ab03-53b6f4322296
+name: edenor
+mail: mateos.gustavo@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: es
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

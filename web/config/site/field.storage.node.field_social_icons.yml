@@ -1,0 +1,21 @@
+uuid: 54c15e65-5014-49b9-9413-c3106b6c7b2b
+langcode: es
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: 5mjC6mbFDU-5LdpytklApX7mBiPFXBhCp-qoZ44IHMo
+id: node.field_social_icons
+field_name: field_social_icons
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: 8ecf4ed5-4498-4a92-93f4-0c7415e71716
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: poyZOVsLfUkEW_47EFXoN2I_Z3dkvG5ExFYUhnP_KyA
+id: node.field_slider_body
+field_name: field_slider_body
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

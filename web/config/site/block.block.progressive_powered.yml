@@ -1,0 +1,22 @@
+uuid: c8553bf6-7851-4316-8905-359b3470fbaa
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - progressive
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: progressive_powered
+theme: progressive
+region: top
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Funciona con Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

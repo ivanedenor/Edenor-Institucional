@@ -1,0 +1,21 @@
+uuid: a936f786-45a5-4739-8fbb-24f154fb7d4f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_slider_title
+    - node.type.project
+_core:
+  default_config_hash: UdQUrrfonGcSkNB7DEpWdz_8452ubwEVZTc0_iw624U
+id: node.project.field_slider_title
+field_name: field_slider_title
+entity_type: node
+bundle: project
+label: 'Slider Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

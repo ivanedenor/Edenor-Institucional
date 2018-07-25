@@ -1,0 +1,26 @@
+# codigo tomado de https://github.com/geerlingguy/demo-drupal-8/blob/master/example.gitignore y del example provisto por drupal
+# Ignore core when managing all of a project's dependencies with Composer
+# including Drupal core.
+
+# Core's dependencies are managed with Composer.
+# Ignore dependencies that are managed with Composer.
+# Ignore root vendor directory only. It's important that core/assets/vendor
+# stays not ignored. Contrib and custom modules, themes, etc., may also
+# contain directories named "vendor" which should not be ingored by default.
+/vendor/
+
+# ignore configuracion de netbeans editor
+/nbproject/
+
+# Ignore configuration files that may contain sensitive information.
+# settings.php se configura con variables de entorno en azure, por lo que no es necesario excluirlo
+# sites/*/settings*.php
+sites/*/services*.yml
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+# Ignore SimpleTest multi-site environment.
+sites/simpletest
+

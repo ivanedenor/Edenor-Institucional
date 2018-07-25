@@ -1,0 +1,16 @@
+uuid: e2d89db7-39b5-4ed3-a41e-41fcb2e5bc34
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: '-XbSjUB0t3R5wlDaeZLXK4zl0c9V9kto4Q7S8z4oS4Y'
+name: project_270x197
+label: 'Project (270x197)'
+effects:
+  78f6931b-fac3-4182-a6b7-625095f7cfbc:
+    uuid: 78f6931b-fac3-4182-a6b7-625095f7cfbc
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 270
+      height: 197

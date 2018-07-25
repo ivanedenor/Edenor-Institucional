@@ -1,0 +1,16 @@
+uuid: 8f0a7cf4-1b8f-49af-993b-5286d771afbb
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: yzGUDkS6L3pZvHprYknVD-FS0WtHZY4gC51DT74X-dA
+name: team_60x60
+label: 'Team (60x60)'
+effects:
+  2f75e3f5-f858-4e41-85fb-5718d0b7d014:
+    uuid: 2f75e3f5-f858-4e41-85fb-5718d0b7d014
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 60
+      height: 60

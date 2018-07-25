@@ -1,0 +1,25 @@
+uuid: 6bc1ddaa-c987-44e4-8320-4265cd1c2022
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - progressive
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: progressive_branding
+theme: progressive
+region: top
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Marca del sitio'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

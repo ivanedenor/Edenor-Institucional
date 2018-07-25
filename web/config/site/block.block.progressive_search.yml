@@ -1,0 +1,22 @@
+uuid: 5e7b89e0-6405-4c3b-99d4-5244c7767a7e
+langcode: es
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - progressive
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: progressive_search
+theme: progressive
+region: top
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Buscar
+  provider: search
+  label_display: visible
+visibility: {  }

@@ -1,0 +1,16 @@
+uuid: 21297753-b3d4-4b1e-960f-38a3671a0e1f
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: '-9L4ImvZ-kJK007JIsCTAKbXANJL9q6xUAmhL9WLmjU'
+name: gallery_item_1170x410
+label: 'Gallery Item (1170x410)'
+effects:
+  0e76e90c-fbdf-4d38-8efd-3df26f43de89:
+    uuid: 0e76e90c-fbdf-4d38-8efd-3df26f43de89
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1170
+      height: 410

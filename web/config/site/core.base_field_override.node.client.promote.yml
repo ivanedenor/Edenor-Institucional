@@ -1,0 +1,24 @@
+uuid: bd1ba348-e0fb-41dd-9bae-108a38e9a95b
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.client
+_core:
+  default_config_hash: bZKPR7bagsi3qKpPY5ShW7TCoMcHuzrAZxKSQ6bI5x0
+id: node.client.promote
+field_name: promote
+entity_type: node
+bundle: client
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

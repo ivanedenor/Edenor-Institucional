@@ -1,0 +1,20 @@
+uuid: 51bc4aa0-60f5-46b4-96e4-dc0e1f8c652a
+langcode: es
+status: true
+dependencies:
+  theme:
+    - progressive
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: progressive_local_actions
+theme: progressive
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Acciones primarias de administración'
+  provider: core
+  label_display: '0'
+visibility: {  }

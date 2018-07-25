@@ -1,0 +1,22 @@
+uuid: b5b2cdcc-d41d-4cea-89fd-f113527aedb1
+langcode: es
+status: true
+dependencies:
+  theme:
+    - progressive
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: progressive_local_tasks
+theme: progressive
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Pestañas
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,13 @@
+uuid: e294e90e-bd06-4990-bd6c-d453f0b53a68
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.project
+_core:
+  default_config_hash: GdXV-YDkzZx06dtVlczutds8dupSXFMfVfV4NXKjl7M
+id: node.project
+target_entity_type_id: node
+target_bundle: project
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,32 @@
+uuid: c1238205-4309-4040-98c3-b58dde016e69
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.team
+  module:
+    - system
+    - views
+  theme:
+    - progressive_sub
+_core:
+  default_config_hash: xbJTK80lZVnkTconY1ASF1syOXR7tSuraPI4lF35UDw
+id: views_block__team_block
+theme: progressive_sub
+region: content
+weight: -13
+provider: null
+plugin: 'views_block:team-block'
+settings:
+  id: 'views_block:team-block'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /content/about-us
+    negate: false
+    context_mapping: {  }

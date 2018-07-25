@@ -1,0 +1,23 @@
+uuid: 9959b5a6-814c-4ac9-acda-13202e04e046
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.project
+  module:
+    - datetime
+_core:
+  default_config_hash: mPoDDflIhUe8vKYPeT0pbn9O0Ee1kDa440Ne196N3fU
+id: node.project.field_date
+field_name: field_date
+entity_type: node
+bundle: project
+label: Date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

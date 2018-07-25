@@ -1,0 +1,21 @@
+uuid: 0ef4ec26-ae70-410e-a6f2-ef195a08d759
+langcode: es
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: dgOs93LFJC5l5kO4omHenTUb3SBcl6V9fkJuqXzq7-E
+id: node.field_slider_link
+field_name: field_slider_link
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

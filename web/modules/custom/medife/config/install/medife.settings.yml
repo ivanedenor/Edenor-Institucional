@@ -1,0 +1,6 @@
+auth0_domain: gmateospaginar.auth0.com
+auth0_client_id: qgEvpF31I7SEsc2oVpIyR8Nkx3kAbUdE
+auth0_client_secret: 'VsdAJ0CExv4Kona9XZx4sblCN_Xx9Oy4N9lndVdfFDNcu7ux18ZGLi1pyhSXKbx9'
+auth0_jwt_leeway: 180
+auth0_jwt_signature_alg: RS256
+auth0_secret_base64_encoded: false

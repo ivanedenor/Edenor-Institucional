@@ -1,0 +1,21 @@
+uuid: 177c83c1-09d2-4efe-ad04-e568aee21f99
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_client
+    - node.type.project
+_core:
+  default_config_hash: UsBtuqdor44OZe09lvqhbuxtMecgs029sgfXxRy1sUc
+id: node.project.field_client
+field_name: field_client
+entity_type: node
+bundle: project
+label: Client
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

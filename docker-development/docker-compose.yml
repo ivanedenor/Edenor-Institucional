@@ -1,0 +1,45 @@
+version: '3.1'
+services:
+    web:
+        container_name: edenor-webapp-drupal8
+        build: 
+            context: .
+            dockerfile: Dockerfile-azure-webapp
+        ports:
+            - "8080:8080" 
+        working_dir: /var/www
+        volumes:
+            - ./../web:/home/site/wwwroot   
+        links:
+            - mysql
+        environment: 
+            - DRUPAL_DB_NAME=drupaldb
+            - DRUPAL_DB_USERNAME=drupaluser
+            - DRUPAL_DB_USERPASS=gus123
+            - DRUPAL_DB_HOST=192.168.99.100
+            - DRUPAL_DB_PORT=3306
+            - DRUPAL_TRUSTED_HOST_PATTERN1=^example\.com$$
+            - DRUPAL_TRUSTED_HOST_PATTERN2=^localhost$$
+            - DRUPAL_TRUSTED_HOST_PATTERN3=^192.168.99.100$$
+            - DRUPAL_DB_SSL_CA=usar-aca-el-ssl-ca-cuando-DRUPAL_DB_SSL_VERIFY_SERVER_CERT-true
+            - DRUPAL_DB_SSL_VERIFY_SERVER_CERT=false
+    mysql:
+        container_name: edenor-mysql55-drupal8
+        image: mysql:5.5
+        ports:
+            - "3306:3306"
+        # the mysql image uses these to create database and users
+        environment: 
+            - MYSQL_ROOT_PASSWORD=gus123
+            - MYSQL_DATABASE=drupaldb
+            - MYSQL_USER=drupaluser
+            - MYSQL_PASSWORD=gus123
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        ports:
+            - "8081:80"
+        links:
+            - mysql
+        environment:
+          - PMA_HOST=mysql
+   

@@ -1,0 +1,24 @@
+medife.login:
+  path: '/medife/login'
+  defaults:
+    _controller: '\Drupal\medife\Controller\MedifeController::login'
+    _title: 'Log in'
+  requirements:
+    _user_is_logged_in: 'FALSE'
+  options:
+    _maintenance_access: TRUE
+
+
+medife.callback:
+  path: '/medife/callback'
+  defaults:
+    _controller: '\Drupal\medife\Controller\MedifeController::callback'
+  requirements:
+    _access: 'TRUE'
+
+medife.ping_seguro:
+  path: '/medife/ping_seguro'
+  defaults:
+    _controller: '\Drupal\medife\Controller\MedifeController::ping_seguro'
+  requirements:
+    _access: 'TRUE'

@@ -1,0 +1,20 @@
+uuid: e837e4b3-f2af-4fd6-8aae-e1cfa14af387
+langcode: es
+status: true
+dependencies:
+  theme:
+    - progressive
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: progressive_page_title
+theme: progressive
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título de la página'
+  provider: core
+  label_display: '0'
+visibility: {  }

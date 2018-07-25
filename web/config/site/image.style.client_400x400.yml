@@ -1,0 +1,16 @@
+uuid: b98c6631-a51a-4f94-b92d-5984ba448071
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 23UaVRWYVMxmneWjJK6N6lgZ21TeonoeTj1mmWLPMaQ
+name: client_400x400
+label: 'Client (400x400)'
+effects:
+  735b0b29-3d83-488f-bb35-deebbbb6b113:
+    uuid: 735b0b29-3d83-488f-bb35-deebbbb6b113
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 400
