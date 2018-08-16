@@ -1,0 +1,333 @@
+/* ICONS */
+@font-face {
+    font-family: 'fontello';
+    src: url('../../fonts/fontello.eot?98342311');
+    src: url('../../fonts/fontello.eot?98342311#iefix') format('embedded-opentype'),
+       url('../../fonts/fontello.woff2?98342311') format('woff2'),
+       url('../../fonts/fontello.woff?98342311') format('woff'),
+       url('../../fonts/fontello.ttf?98342311') format('truetype'),
+       url('../../fonts/fontello.svg?98342311#fontello') format('svg');    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-edenor"]:before, [class*=" icon-edenor"]:before {
+    font-family: 'fontello';
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+   
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+   
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+   
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+   
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+   
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+   
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+   
+  .icon-edenor-atencion-personalizada:before { content: '\e800'; } /* '' */
+  .icon-edenor-aumento-de-potencia:before { content: '\e801'; } /* '' */
+  .icon-edenor-contratacion:before { content: '\e802'; } /* '' */
+  .icon-edenor-cortes:before { content: '\e803'; } /* '' */
+  .icon-edenor-doc:before { content: '\e804'; } /* '' */
+  .icon-edenor-gestion:before { content: '\e805'; } /* '' */
+  .icon-edenor-numeros:before { content: '\e806'; } /* '' */
+  .icon-edenor-reportes-financeros:before { content: '\e807'; } /* '' */
+  .icon-edenor-sector:before { content: '\e808'; } /* '' */
+  .icon-edenor-tres-pasos:before { content: '\e809'; } /* '' */
+  .icon-edenor-download:before { content: '\e80a'; } /* '' */
+  .icon-edenor-geo:before { content: '\e80b'; } /* '' */
+  .icon-edenor-personas:before { content: '\e80c'; } /* '' */
+  .icon-edenor-avatar:before { content: '\e80d'; } /* '' */
+  .icon-edenor-centro-de-ayuda:before { content: '\e80e'; } /* '' */
+  .icon-edenor-play:before { content: '\e810'; } /* '' */
+
+
+/* ASAP */
+
+@font-face {
+    font-family: 'Asap';
+    src: url('../../fonts/Asap-MediumItalic.eot');
+    src: url('../../fonts/Asap-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Asap-MediumItalic.woff2') format('woff2'),
+        url('../../fonts/Asap-MediumItalic.woff') format('woff'),
+        url('../../fonts/Asap-MediumItalic.ttf') format('truetype'),
+        url('../../fonts/Asap-MediumItalic.svg#Asap-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('../../fonts/Asap-BoldItalic.eot');
+    src: url('../../fonts/Asap-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Asap-BoldItalic.woff2') format('woff2'),
+        url('../../fonts/Asap-BoldItalic.woff') format('woff'),
+        url('../../fonts/Asap-BoldItalic.ttf') format('truetype'),
+        url('../../fonts/Asap-BoldItalic.svg#Asap-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('../../fonts/Asap-Medium.eot');
+    src: url('../../fonts/Asap-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Asap-Medium.woff2') format('woff2'),
+        url('../../fonts/Asap-Medium.woff') format('woff'),
+        url('../../fonts/Asap-Medium.ttf') format('truetype'),
+        url('../../fonts/Asap-Medium.svg#Asap-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('../../fonts/Asap-Bold.eot');
+    src: url('../../fonts/Asap-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Asap-Bold.woff2') format('woff2'),
+        url('../../fonts/Asap-Bold.woff') format('woff'),
+        url('../../fonts/Asap-Bold.ttf') format('truetype'),
+        url('../../fonts/Asap-Bold.svg#Asap-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('../../fonts/Asap-Italic.eot');
+    src: url('../../fonts/Asap-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Asap-Italic.woff2') format('woff2'),
+        url('../../fonts/Asap-Italic.woff') format('woff'),
+        url('../../fonts/Asap-Italic.ttf') format('truetype'),
+        url('../../fonts/Asap-Italic.svg#Asap-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('../../fonts/Asap-Regular.eot');
+    src: url('../../fonts/Asap-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Asap-Regular.woff2') format('woff2'),
+        url('../../fonts/Asap-Regular.woff') format('woff'),
+        url('../../fonts/Asap-Regular.ttf') format('truetype'),
+        url('../../fonts/Asap-Regular.svg#Asap-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('../../fonts/Asap-SemiBold.eot');
+    src: url('../../fonts/Asap-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Asap-SemiBold.woff2') format('woff2'),
+        url('../../fonts/Asap-SemiBold.woff') format('woff'),
+        url('../../fonts/Asap-SemiBold.ttf') format('truetype'),
+        url('../../fonts/Asap-SemiBold.svg#Asap-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('../../fonts/Asap-SemiBoldItalic.eot');
+    src: url('../../fonts/Asap-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Asap-SemiBoldItalic.woff2') format('woff2'),
+        url('../../fonts/Asap-SemiBoldItalic.woff') format('woff'),
+        url('../../fonts/Asap-SemiBoldItalic.ttf') format('truetype'),
+        url('../../fonts/Asap-SemiBoldItalic.svg#Asap-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+/* NUNITO */
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../../fonts/Nunito-LightItalic.eot');
+    src: url('../../fonts/Nunito-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Nunito-LightItalic.woff2') format('woff2'),
+        url('../../fonts/Nunito-LightItalic.woff') format('woff'),
+        url('../../fonts/Nunito-LightItalic.ttf') format('truetype'),
+        url('../../fonts/Nunito-LightItalic.svg#Nunito-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../../fonts/Nunito-BlackItalic.eot');
+    src: url('../../fonts/Nunito-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Nunito-BlackItalic.woff2') format('woff2'),
+        url('../../fonts/Nunito-BlackItalic.woff') format('woff'),
+        url('../../fonts/Nunito-BlackItalic.ttf') format('truetype'),
+        url('../../fonts/Nunito-BlackItalic.svg#Nunito-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../../fonts/Nunito-Black.eot');
+    src: url('../../fonts/Nunito-Black.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Nunito-Black.woff2') format('woff2'),
+        url('../../fonts/Nunito-Black.woff') format('woff'),
+        url('../../fonts/Nunito-Black.ttf') format('truetype'),
+        url('../../fonts/Nunito-Black.svg#Nunito-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../../fonts/Nunito-ExtraLightItalic.eot');
+    src: url('../../fonts/Nunito-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Nunito-ExtraLightItalic.woff2') format('woff2'),
+        url('../../fonts/Nunito-ExtraLightItalic.woff') format('woff'),
+        url('../../fonts/Nunito-ExtraLightItalic.ttf') format('truetype'),
+        url('../../fonts/Nunito-ExtraLightItalic.svg#Nunito-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../../fonts/Nunito-Regular.eot');
+    src: url('../../fonts/Nunito-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Nunito-Regular.woff2') format('woff2'),
+        url('../../fonts/Nunito-Regular.woff') format('woff'),
+        url('../../fonts/Nunito-Regular.ttf') format('truetype'),
+        url('../../fonts/Nunito-Regular.svg#Nunito-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../../fonts/Nunito-ExtraLight.eot');
+    src: url('../../fonts/Nunito-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Nunito-ExtraLight.woff2') format('woff2'),
+        url('../../fonts/Nunito-ExtraLight.woff') format('woff'),
+        url('../../fonts/Nunito-ExtraLight.ttf') format('truetype'),
+        url('../../fonts/Nunito-ExtraLight.svg#Nunito-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../../fonts/Nunito-ExtraBold.eot');
+    src: url('../../fonts/Nunito-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Nunito-ExtraBold.woff2') format('woff2'),
+        url('../../fonts/Nunito-ExtraBold.woff') format('woff'),
+        url('../../fonts/Nunito-ExtraBold.ttf') format('truetype'),
+        url('../../fonts/Nunito-ExtraBold.svg#Nunito-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../../fonts/Nunito-BoldItalic.eot');
+    src: url('../../fonts/Nunito-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Nunito-BoldItalic.woff2') format('woff2'),
+        url('../../fonts/Nunito-BoldItalic.woff') format('woff'),
+        url('../../fonts/Nunito-BoldItalic.ttf') format('truetype'),
+        url('../../fonts/Nunito-BoldItalic.svg#Nunito-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../../fonts/Nunito-Light.eot');
+    src: url('../../fonts/Nunito-Light.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Nunito-Light.woff2') format('woff2'),
+        url('../../fonts/Nunito-Light.woff') format('woff'),
+        url('../../fonts/Nunito-Light.ttf') format('truetype'),
+        url('../../fonts/Nunito-Light.svg#Nunito-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../../fonts/Nunito-Italic.eot');
+    src: url('../../fonts/Nunito-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Nunito-Italic.woff2') format('woff2'),
+        url('../../fonts/Nunito-Italic.woff') format('woff'),
+        url('../../fonts/Nunito-Italic.ttf') format('truetype'),
+        url('../../fonts/Nunito-Italic.svg#Nunito-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../../fonts/Nunito-SemiBold.eot');
+    src: url('../../fonts/Nunito-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Nunito-SemiBold.woff2') format('woff2'),
+        url('../../fonts/Nunito-SemiBold.woff') format('woff'),
+        url('../../fonts/Nunito-SemiBold.ttf') format('truetype'),
+        url('../../fonts/Nunito-SemiBold.svg#Nunito-SemiBold') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../../fonts/Nunito-Bold.eot');
+    src: url('../../fonts/Nunito-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Nunito-Bold.woff2') format('woff2'),
+        url('../../fonts/Nunito-Bold.woff') format('woff'),
+        url('../../fonts/Nunito-Bold.ttf') format('truetype'),
+        url('../../fonts/Nunito-Bold.svg#Nunito-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../../fonts/Nunito-SemiBoldItalic.eot');
+    src: url('../../fonts/Nunito-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Nunito-SemiBoldItalic.woff2') format('woff2'),
+        url('../../fonts/Nunito-SemiBoldItalic.woff') format('woff'),
+        url('../../fonts/Nunito-SemiBoldItalic.ttf') format('truetype'),
+        url('../../fonts/Nunito-SemiBoldItalic.svg#Nunito-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../../fonts/Nunito-ExtraBoldItalic.eot');
+    src: url('../../fonts/Nunito-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Nunito-ExtraBoldItalic.woff2') format('woff2'),
+        url('../../fonts/Nunito-ExtraBoldItalic.woff') format('woff'),
+        url('../../fonts/Nunito-ExtraBoldItalic.ttf') format('truetype'),
+        url('../../fonts/Nunito-ExtraBoldItalic.svg#Nunito-ExtraBoldItalic') format('svg');
+    font-weight: 800;
+    font-style: italic;
+}

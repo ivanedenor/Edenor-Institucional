@@ -1,8 +1,0 @@
-langcode: und
-status: true
-dependencies: {  }
-name: Manufacturer
-vid: manufacturer
-description: ''
-hierarchy: 0
-weight: 0

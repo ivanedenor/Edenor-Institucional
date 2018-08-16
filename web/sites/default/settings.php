@@ -57,6 +57,7 @@
  * register custom, site-specific service definitions and/or swap out default
  * implementations with custom ones.
  */
+
 /**
  * Database settings:
  *
@@ -224,6 +225,7 @@ $databases = array();
  *   );
  * @endcode
  */
+
 /**
  * Location of the site configuration files.
  *
@@ -260,6 +262,7 @@ $config_directories = array();
  *
  * @see \Drupal\Core\Site\Settings::get()
  */
+
 /**
  * The active installation profile.
  *
@@ -294,7 +297,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'HZT_EU1Mv_A0qO4X7p0Pc1OC-Sj2Z5dboDFw4NV6voCf5p7pwSVHk0Ylo0fhIYQpPL8TJqiUIw';
+$settings['hash_salt'] = 'EMl_gLGSqDvdyJtUxBGx29NN9aGhKu2Jl2B3bUS1znDPTRZS6sEKNIL7LQzWgR-mNqTc6MUAoQ';
 
 /**
  * Deployment identifier.
@@ -471,15 +474,15 @@ $settings['update_free_access'] = FALSE;
  * uncomment the code below.
  */
 /*
-  if ($settings['hash_salt']) {
+if ($settings['hash_salt']) {
   $prefix = 'drupal.' . hash('sha256', 'drupal.' . $settings['hash_salt']);
   $apc_loader = new \Symfony\Component\ClassLoader\ApcClassLoader($prefix, $class_loader);
   unset($prefix);
   $class_loader->unregister();
   $apc_loader->register();
   $class_loader = $apc_loader;
-  }
- */
+}
+*/
 
 /**
  * Authorized file system operations:
@@ -524,7 +527,7 @@ $settings['update_free_access'] = FALSE;
  * security by serving user-uploaded files from a different domain or subdomain
  * pointing to the same server. Do not include a trailing slash.
  */
-//$settings['file_public_base_url'] = 'https://example.com';
+# $settings['file_public_base_url'] = 'http://downloads.example.com/files';
 
 /**
  * Public file path:
@@ -598,6 +601,7 @@ $settings['update_free_access'] = FALSE;
  * Settings defined there should not be duplicated here so as to avoid conflict
  * issues.
  */
+
 /**
  * If you encounter a situation where users post a large amount of text, and
  * the result is stripped out upon viewing but can still be edited, Drupal's
@@ -741,12 +745,7 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  * will allow the site to run off of all variants of example.com and
  * example.org, with all subdomains included.
  */
-$settings['trusted_host_patterns'] = [
-    getenv("DRUPAL_TRUSTED_HOST_PATTERN1"),
-    getenv("DRUPAL_TRUSTED_HOST_PATTERN2"),
-    getenv("DRUPAL_TRUSTED_HOST_PATTERN3"),
-    getenv("DRUPAL_TRUSTED_HOST_PATTERN4")
-];
+
 /**
  * The default list of directories that will be ignored by Drupal's file API.
  *
@@ -758,8 +757,8 @@ $settings['trusted_host_patterns'] = [
  * @see \Drupal\Core\Extension\ExtensionDiscovery::scanDirectory()
  */
 $settings['file_scan_ignore_directories'] = [
-    'node_modules',
-    'bower_components',
+  'node_modules',
+  'bower_components',
 ];
 
 /**
@@ -786,25 +785,15 @@ $settings['entity_update_batch_size'] = 50;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
-# las instrucciones para la conexion sobre ssl (pdo) fueron tomadas de: https://www.drupal.org/forum/support/installing-drupal/2012-11-14/drupal-7-connection-to-mysql-over-ssl
-$databases['default']['default'] = array(
-    'database' => getenv("DRUPAL_DB_NAME"),
-    'username' => getenv("DRUPAL_DB_USERNAME"),
-    'password' => getenv("DRUPAL_DB_USERPASS"),
-    'prefix' => '',
-    'host' => getenv("DRUPAL_DB_HOST"),
-    'port' => '3306',
-    'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-    'driver' => 'mysql',
+$databases['default']['default'] = array (
+  'database' => 'maps',
+  'username' => 'root',
+  'password' => 'root',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
 );
-# PAGINAR: si se indicó que usa ssl, entonces agregamos las opciones, sino no hacemos nada al respecto
-# PDO::MYSQL_ATTR_SSL_CA => '/home/site/BaltimoreCyberTrustRoot.crt.pem',
-$use_ssl = filter_var(   getenv("DRUPAL_DB_SSL_VERIFY_SERVER_CERT"), FILTER_VALIDATE_BOOLEAN);
-if ($use_ssl) {
-    $databases['default']['default']['pdo']= array(
-        PDO::MYSQL_ATTR_SSL_CA => getenv("DRUPAL_DB_SSL_CA"),
-        PDO::MYSQL_ATTR_SSL_VERIFY_SERVER_CERT => true,
-    );
-}
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_LLtzkVtA_5ljznPkdzWBR9TUOZMdud1dtkAXwsUV0Xwm8w6t_8pjrDycJ1PJZsuOE8FO_A0Sug/sync';
+$config_directories['sync'] = 'sites/default/files/config_heP9QsoB9-7OoEjNFzvZuS5ZsXqPc_K4H12bKG_gfR0lDwT486cP-pvOX2axAqeGNKejEicvmA/sync';
