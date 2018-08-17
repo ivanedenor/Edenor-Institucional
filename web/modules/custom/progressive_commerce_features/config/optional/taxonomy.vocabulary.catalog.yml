@@ -1,8 +1,0 @@
-langcode: und
-status: true
-dependencies: {  }
-name: Catalog
-vid: catalog
-description: ''
-hierarchy: 0
-weight: 0
