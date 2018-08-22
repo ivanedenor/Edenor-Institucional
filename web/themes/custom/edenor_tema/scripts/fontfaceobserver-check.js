@@ -21,5 +21,21 @@
     }
   };
 
-  // alert('hola');
+  // Logo
+  var logoColor = '<img src="/themes/custom/edenor_tema/Logo-color.png" class="logo-img-color">';
+  var logoContainer = '.site-branding a';
+  $(logoContainer).append(logoColor);
+
+  // Sticky menu
+  $(function(){
+    $(window).scroll(function(){
+      var winTop = $(window).scrollTop();
+      if(winTop >= 30){
+        $("body").addClass("sticky-header");
+      }else{
+        $("body").removeClass("sticky-header");
+      }//if-else
+    });//win func.
+  });//ready func.
+
 }(jQuery));
