@@ -17,6 +17,9 @@
         "preferred-install": "dist",
         "autoloader-suffix": "Drupal8"
     },
+	"conflict": {
+		"doctrine/common": ">2.8"
+	},
     "extra": {
         "_readme": [
             "By default Drupal loads the autoloader from ./vendor/autoload.php.",
