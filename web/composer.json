@@ -6,7 +6,7 @@
     "require": {
         "composer/installers": "^1.0.24",
         "wikimedia/composer-merge-plugin": "^1.4",
-        "drush/drush": "^9.3"
+        "drush/drush": "9.3"
     },
     "replace": {
         "drupal/core": "^8.5"
@@ -17,9 +17,6 @@
         "preferred-install": "dist",
         "autoloader-suffix": "Drupal8"
     },
-	"conflict": {
-		"doctrine/common": ">2.8"
-	},
     "extra": {
         "_readme": [
             "By default Drupal loads the autoloader from ./vendor/autoload.php.",

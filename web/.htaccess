@@ -1,12 +1,3 @@
-# =========[ start of .htaccess snippet para que ignore el rewrite del subdirectorio /spa]==========
-<IfModule mod_rewrite.c>
-  RewriteEngine on
-#
-  # stuff to let through (ignore)
-  RewriteCond %{REQUEST_URI} "/spa/" 
-  RewriteRule (.*) $1 [L]
-  #
-# ====================[ end ]=====================
 #
 # Apache/PHP/Drupal settings:
 #
