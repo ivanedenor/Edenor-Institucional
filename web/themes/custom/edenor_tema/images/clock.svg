@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Hogares-y-Comercios" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.3">
+        <g id="Hogares-Home-sin-alerta-HD" transform="translate(-880.000000, -1912.000000)">
+            <g id="obras" transform="translate(156.000000, 1601.000000)">
+                <g id="Group" transform="translate(719.000000, 306.000000)">
+                    <g transform="translate(5.142857, 5.217988)" stroke="#000000">
+                        <path d="M0.5,7.82698208 C0.5,11.8759014 3.73118263,15.1539642 7.71428571,15.1539642 C11.6973888,15.1539642 14.9285714,11.8759014 14.9285714,7.82698208 C14.9285714,3.77950499 11.6966051,0.5 7.71428571,0.5 C3.7319663,0.5 0.5,3.77950499 0.5,7.82698208 Z" id="Oval"></path>
+                        <polyline id="Shape" points="11.3142857 8.87057969 7.2 8.87057969 7.2 3.65259164"></polyline>
+                    </g>
+                    <rect id="Bounds" x="0" y="0" width="25.7142857" height="26.0899403"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
