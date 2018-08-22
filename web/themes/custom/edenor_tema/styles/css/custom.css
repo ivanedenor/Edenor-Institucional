@@ -37,6 +37,12 @@ body {
     color: #fff;
 }
 
+/* Celeste */
+.btn.bluesky {
+    background: #4D97FA;
+    color: #fff;
+}
+
 /* Centrado */
 .btn.center {
     margin: 0 auto;
@@ -49,19 +55,88 @@ body {
 
 /* Menú header */
 .l-header {
+    background: none;
     top: 0;
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     z-index: 2;
 }
     .l-header .pr-header {
+        background: none;
         margin: 20px;
+    }
+    .l-header .pr-header .regions {
+        background: none;
+    }
+    .sticky-header .l-header .pr-header {
+        background: rgba(255,255,255, .95);
+    }
+
+    /* Logo */
+    .logo-img-color {
+        display: none;
+    }
+    .sticky-header .logo-img-color {
+        display: block;
+    }
+    .sticky-header .site-branding__logo-img {
+        display: none;
     }
 
     /* Slogan */
     .site-branding__text {
         text-indent: -9999em;
+        height: 0;
+        width: 0;
     }
+
+    /* Menu */
+    .ms-dropmenu .rm-block__content .menu-level-1 {
+        height: 32px;
+    }
+        .ms-dropmenu .rm-block__content .menu-level-1 > li {
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+            .sticky-header.ms-dropmenu .rm-block__content .menu-level-1 > li > span > .menu__link {
+                color: #1D558C;
+            }
+            .ms-dropmenu .rm-block__content .menu-level-1 > li > span > .menu__link {
+                color: #fff;
+            }
+            .ms-dropmenu .rm-block__content .menu-level-1 > li:hover > span > .menu__link {
+                background: #fff !important;
+                color: #1D558C;
+                -webkit-transition-delay: 25ms;
+                -o-transition-delay: 25ms;
+                transition-delay: 25ms;
+            }
+            .ms-dropmenu .rm-block__content .menu-level-1 > li > span > .menu__link.is-active {
+                background: none;
+            }
+            .sticky-header.ms-dropmenu .rm-block__content .menu-level-1 > li > span > .menu__link.is-active:before {
+                background: #1D558C;
+            }
+            .ms-dropmenu .rm-block__content .menu-level-1 > li > span > .menu__link.is-active:before {
+                background: #fff;
+                content: '';
+                position: absolute;
+                height: 1px;
+                width: 60%;
+                bottom: -10%;
+                left: 20%;
+            }
+                .ms-dropmenu .rm-block__content .menu-level-1 .is-child.menu-level-2 {
+                    position: relative;
+                }    
+                    .ms-dropmenu .rm-block__content .menu-level-2 .menu__link{
+                        background: #fff !important;
+                        color: #1D558C !important;
+                    }
+
+
+
+    
 
 /* Encabezado */
 .l-highlighted {
@@ -90,15 +165,184 @@ body {
             }
                 /* Campos */
                 .field-paragraph--field-bajada {
+                    display: flex;
                     position: absolute;
-                    top: 20%;
+                    top: 0; left: 0;
+                    height: 90%;
                     width: 100%;
                 }
                 .field-paragraph--field-bajada .field__items {
-                        padding: 0 0.625em;
-                        margin: 0 auto;
-                        max-width: 75em;
+                    align-self: center;
+                    padding: 0 0.625em;
+                    margin: 0 auto;
+                    max-width: 75em;
+                    width: 100%;
+                }
+                    .field-paragraph--field-bajada .field__items .field__item {
+                        width: auto;
                     }
+                    @media (min-width: 960px) {
+                        .field-paragraph--field-bajada .field__items .field__item {
+                            width: 60%;
+                        }
+                    }
+                    @media (min-width: 1200px) {
+                        .field-paragraph--field-bajada .field__items .field__item {
+                            width: 50%;
+                        }
+                    }
+
+                    .field-paragraph--field-bajada .field__items .field__item h1,
+                    .field-paragraph--field-bajada .field__items .field__item h2 {
+                        font-size: 2.8rem;
+                    }
+                    .field-paragraph--field-bajada .field__items .field__item h1,
+                    .field-paragraph--field-bajada .field__items .field__item h2,
+                    .field-paragraph--field-bajada .field__items .field__item h3,
+                    .field-paragraph--field-bajada .field__items .field__item h4,
+                    .field-paragraph--field-bajada .field__items .field__item h5,
+                    .field-paragraph--field-bajada .field__items .field__item h6 {
+                        color: #09DC08;
+                        font-weight: bold;
+                    }
+                    .field-paragraph--field-bajada .field__items .field__item {
+                        color: #fff;
+                    }
+                    .field-paragraph--field-bajada .field__items .field__item a{
+                        background: #4D97FA url(../../images/Flecha-blanco.svg) no-repeat 150px center;
+                        border: 0 none;
+                        font-weight: bold;
+                        text-decoration: none;
+                        font-size: 14px;
+                        border-radius: 26px;
+                        color: #fff;
+                        line-height: 34px;
+                        padding: 9px 20px;
+                        display: block;
+                        max-width: 200px;
+                        height: 50px;
+                    }
+
+
+            /* Slider dots */
+            .slick-dots{
+                bottom: 5%;
+                position: absolute;
+                text-align: center;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+            }
+                .slick-dots li {
+                    display: inline-block;
+                }
+                    .slick-dots li button {
+                        background: transparent;
+                        border: 1px solid #fff;
+                        border-radius: 50%;
+                        box-shadow: none;
+                        text-indent: -9999em;
+                        margin: 0 7px;
+                        padding: 0;
+                        height: 14px;
+                        width: 14px;
+                    }
+                    .slick-dots li button:hover,
+                    .slick-dots li.slick-active button {
+                        background: #fff;
+                    }
+
+/* PAGES */
+
+/* Landings */
+.node--view-mode-encabezado {
+    background: none;
+}
+.page-node-type--landing .node__title {
+    display: none;
+}
+.page-node-type--landing .block-main-content > article {
+    padding: 0;
+    box-shadow: none;
+    background: transparent;
+}
+
+.field-name-field-tarjetas {
+    margin: 70px 0 50px;
+}
+.field-name-field-tarjetas > .field__items {
+    display: flex;
+    justify-content: space-between;
+}
+.field-name-field-tarjetas > .field__items > .field__item {
+    max-width: 550px;
+    position: relative;
+}
+.tarjeta-cuerpo {
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    text-align: center;
+    width: 80%;
+}
+
+.field-paragraph--field-tarjeta-titulo {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 26px;
+}
+
+
+
+/* COMPONENTES */
+
+/* Notas destacadas */
+#slick-views-notas-block-1-2-slider .slick__slide {
+    background: #fff;
+    display: flex !important;
+}
+    #slick-views-notas-block-1-2-slider .slick__slide .views-field-field-image {
+        
+    }
+    @media (min-width: 768px) {
+        #slick-views-notas-block-1-2-slider .slick__slide .views-field-field-image {
+            margin-right: 20px;
+        }
+    }
+    .nota-categorias {
+        color: #08D607;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 30px 0 20px;
+        text-transform: uppercase;
+    }
+
+    .nota-teaser-body br,
+    .nota-teaser-body h1,
+    .nota-teaser-body h2,
+    .nota-teaser-body h3 {
+        display: none;
+    }
+
+    #slick-views-notas-block-1-2-slider .slick__slide .views-field-nothing h3 a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .nota-date {
+        background: url(../../images/clock.svg) no-repeat center left;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 0 20px;
+        margin-top: 20px;
+        text-transform: uppercase;
+    }
+
+
+
+
 
 /* Content sufix */
 .l-content-suffix {
