@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="47px" viewBox="0 0 47 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/blurb/numeros</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon/blurb/numeros" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M32,37 L38,37 L38,26 L32,26 L32,37 Z M21,37 L27,37 L27,11 L21,11 L21,37 Z M11,36 L17,36 L17,18 L11,18 L11,36 Z M41.7777778,0 L5.22222222,0 C2.35011013,0 0,2.35011013 0,5.22222222 L0,41.7777778 C0,44.6498899 2.35011013,47 5.22222222,47 L41.7777778,47 C44.6498899,47 47,44.6498899 47,41.7777778 L47,5.22222222 C47,2.35011013 44.6498899,0 41.7777778,0 Z" id="numeros" fill="#08D607"></path>
+    </g>
+</svg>
