@@ -54,7 +54,11 @@ body {
 
 
 /* Menú header */
+.path-frontpage .l-header {
+    display: block;
+}
 .l-header {
+    display: none;
     background: none;
     top: 0;
     position: fixed;
@@ -339,6 +343,109 @@ body {
         margin-top: 20px;
         text-transform: uppercase;
     }
+
+
+
+/* Blurbs */
+.field-paragraph--field-blurb-icono {
+    margin-top: 80px;
+}
+.field-paragraph--field-blurb-icono > .field__items {
+    display: flex;
+}
+    .field-paragraph--field-blurb-icono > .field__items > .field__item {
+        width: 30%;
+        margin: 0 1.5%;
+        text-align: center;
+    }
+    .field-paragraph--field-blurb-icono .field__items .field-paragraph--field-pr-blurb-icono {
+        display: none;
+    }
+    .field-paragraph--field-blurb-icono .field__items .icon {
+        margin: 1%;
+    }
+    .field-paragraph--field-blurb-icono .field__items .icon:before {
+        display: block;
+        width: 100%;
+        height: 60px;
+    }
+    .field-paragraph--field-blurb-icono .field__items .field-paragraph--field-pr-title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .field-paragraph--field-blurb-icono .field__items .field-paragraph--field-pr-body {
+        color: #666;
+        margin: 5% 8%;
+    }
+
+    .field-paragraph--field-blurb-icono .field__items .field-paragraph--field-pr-cta-link {
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+
+
+
+.icon-10-a:before {
+    background: url(../../images/icons/blurbs/10-a.svg) no-repeat center top;
+    content:' ';
+}
+.icon-atencion-personalizada:before {
+    background: url(../../images/icons/blurbs/atencion-personalizada.svg) no-repeat center top;
+    content:' ';
+}
+.icon-aumento-de-potencia:before {
+    background: url(../../images/icons/blurbs/aumento-de-potencia.svg) no-repeat center top;
+    content:' ';
+}
+.icon-contratacion:before {
+    background: url(../../images/icons/blurbs/contratacion.svg) no-repeat center top;
+    content:' ';
+}
+.icon-cortes:before {
+    background: url(../../images/icons/blurbs/cortes.svg) no-repeat center top;
+    content:' ';
+}
+.icon-doc:before {
+    background: url(../../images/icons/blurbs/doc.svg) no-repeat center top;
+    content:' ';
+}
+.icon-geo:before {
+    background: url(../../images/icons/blurbs/geo.svg) no-repeat center top;
+    content:' ';
+}
+.icon-gestion:before {
+    background: url(../../images/icons/blurbs/gestion.svg) no-repeat center top;
+    content:' ';
+}
+.icon-heartbeat:before {
+    background: url(../../images/icons/blurbs/heartbeat.svg) no-repeat center top;
+    content:' ';
+}
+.icon-medidor:before {
+    background: url(../../images/icons/blurbs/medidor.svg) no-repeat center top;
+    content:' ';
+}
+.icon-numeros:before {
+    background: url(../../images/icons/blurbs/numeros.svg) no-repeat center top;
+    content:' ';
+}
+.icon-personas:before {
+    background: url(../../images/icons/blurbs/personas.svg) no-repeat center top;
+    content:' ';
+}
+.icon-reportes-financeros:before {
+    background: url(../../images/icons/blurbs/reportes-financeros.svg) no-repeat center top;
+    content:' ';
+}
+.icon-tres-pasos:before {
+    background: url(../../images/icons/blurbs/tres-pasos.svg) no-repeat center top;
+    content:' ';
+}
+    
+
+
+
+
 
 
 
